@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   f2: number = this.randNum(); // Math.floor(Math.random() * 1000 + 1 );
   f3: number = this.f1 + this.f2;
   result2: number = this.result2 = this.f1 >= this.f2 ? this.f1 : this.f2;
-  rand1: number;
+  // rand1: number;
 
    randNum() {
     return Math.floor(Math.random() * 1000 + 1 );
